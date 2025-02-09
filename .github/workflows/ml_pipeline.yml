@@ -34,7 +34,7 @@ jobs:
       - name: Run Preprocessing
         run: python preprocessing.py
       
-      # Step 5: Train the model
+      # Step 5: Training the model
       - name: Training Model
         run: python train_model.py
 
